@@ -54,19 +54,23 @@ typescript is the programming language we will be using`ts-jest`is a package tha
      "exclude": ["node_modules", "**/*.spec.ts"]
    }
 ```
-target
- specifies the version of ECMAScript to target.
-module
++  `target` :
+ specifies the version of ECMAScript to target.  
++ `module`:
  specifies the module system to use.
-esModuleInterop
++ `esModuleInterop` :
  allows for interoperability between CommonJS and ES modules.
-outDir
++ `outDir` :
  specifies the output directory for compiled TypeScript files.
-sourceMap
++ `sourceMap` :
  generates source maps for debugging.
-Create a 
-jest.config.js
+
+1. Create a 
+`jest.config.js` 
  file in the root directory of your project with the following configuration:
+ 
+```json
+ 
    module.exports = {
      preset: 'ts-jest',
      testEnvironment: 'node',
@@ -75,6 +79,7 @@ jest.config.js
        '^@/(.*)$': '<rootDir>/src/$1'
      }
    }
+```
 preset
  specifies the Jest preset to use.
 testEnvironment

@@ -3,3 +3,5 @@ this is a text file
 which has helix in the third line
 
 and has helix in the 5th line
+This is the 6th line of the file
+This is the 7th line of the file

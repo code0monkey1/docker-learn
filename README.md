@@ -23,12 +23,12 @@ _Simply put ,`Docker` is a set of products that help us to manage images and con
 
 ## Tutorial : 
 
-Create a new directory for your project and navigate to it in the terminal.
+1. Create a new directory for your project and navigate to it in the terminal.
 
-Initialize a new Node.js project by running the following command: 
-npm init -y
+1. Initialize a new Node.js project by running the following command: 
+`npm init -y`
 
-Install the necessary dependencies by running the following command: 
+1. Install the necessary dependencies by running the following command: 
 npm install --save-dev jest typescript ts-jest @types/jest
 
 jest
@@ -86,13 +86,15 @@ Create a
 src
  directory in the root directory of your project.
 
-Create a 
-src/index.ts
- file with the following code:
+>Create a 
+>src/index.ts
+>file with the following code:
 
+```javascript
    export const add = (a: number, b: number): number => {
      return a + b
    }
+```
 > Create a src/index.spec.ts file with the following code:
 
 ```

@@ -29,19 +29,19 @@ _Simply put ,`Docker` is a set of products that help us to manage images and con
 `npm init -y`
 
 1. Install the necessary dependencies by running the following command: 
-npm install --save-dev jest typescript ts-jest @types/jest
+`npm install --save-dev jest typescript ts-jest @types/jest`
 
-jest
- is the testing framework we will be using.
-typescript
- is the programming language we will be using.
-ts-jest
- is a package that allows Jest to work with TypeScript.
-@types/jest
+1. jest is the testing framework we will be using.
+typescript is the programming language we will be using`ts-jest`is a package that allows Jest to work with TypeScript.
+
+1. `@types/jest`
  provides TypeScript type definitions for Jest.
-Create a 
-tsconfig.json
+
+1. Create a `tsconfig.json`
  file in the root directory of your project with the following configuration:
+ 
+```json
+
    {
      "compilerOptions": {
        "target": "es6",
@@ -53,6 +53,7 @@ tsconfig.json
      "include": ["src/**/*"],
      "exclude": ["node_modules", "**/*.spec.ts"]
    }
+```
 target
  specifies the version of ECMAScript to target.
 module

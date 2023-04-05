@@ -18,3 +18,7 @@
 **So what is docker ?**
 
 _Simply put ,`Docker` is a set of products that help us to manage images and containers_
+
+#### Tasks taken care of by docker
+
++ Helps converting `images` to `containers`

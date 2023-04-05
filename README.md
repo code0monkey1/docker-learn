@@ -19,6 +19,7 @@
 
 _Simply put ,`Docker` is a set of products that help us to manage images and containers_
 
-#### Tasks taken care of by docker
+  _It Helps converting `images` to `containers`, and managing them ._
 
-+ Helps converting `images` to `containers`
+## Tutorial : 
+

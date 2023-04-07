@@ -3,9 +3,9 @@
 
 
 
-## Container VS Image 
+## `Concept` : Container VS Image 
 
-###  _A container is a runtime instance of an image_
+`A container is a runtime instance of an image`
 
 > 
 > **Useful Analogy** :
@@ -22,5 +22,6 @@ _Simply put ,`Docker` is a set of products that help us to manage images and con
   _It Helps converting `images` to `containers`, and managing them ._
 
 ---
-## Tutorial : 
+## Tutorial :
+
 

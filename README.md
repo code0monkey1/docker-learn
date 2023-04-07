@@ -27,5 +27,6 @@ _Simply put ,`Docker` is a set of products that help us to manage images and con
 Steps to Run Docker : 
 
 1. Install docker software on your system and verify it's installed by using `docker -v` command in your terminal.
-2. First command to run  on your system after installing Docker for the first time : 
+1. First command to run  on your system after installing Docker for the first time : 
    `docker container run hello-world`
+1. This command displays a readMe that explains the whole process that took place.
